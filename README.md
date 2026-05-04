@@ -9,7 +9,9 @@
 
 English version: [README_EN.md](README_EN.md)
 
-![工作流演示](assets/demo-workflow.gif)
+
+<p align="center"><img src="assets/demo-workflow.gif" alt="工作流演示"></p>
+
 
 ---
 
