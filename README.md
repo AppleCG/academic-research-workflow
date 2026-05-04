@@ -9,10 +9,6 @@
 
 English version: [README_EN.md](README_EN.md)
 
-
-<p align="center"><img src="assets/demo-workflow.gif" alt="工作流演示"></p>
-
-
 ---
 
 ## 设计哲学
@@ -163,8 +159,6 @@ academic-research-workflow/
 ├── README.md             # 中文文档（本文件）
 ├── README_EN.md          # English documentation
 ├── LICENSE               # MIT 许可证
-├── assets/
-│   └── demo-workflow.gif # 工作流演示
 ├── compendium.md         # 统一知识库（随新蒸馏内容增长）
 ├── memory.md             # 技能记忆与状态
 └── sub-skills/
