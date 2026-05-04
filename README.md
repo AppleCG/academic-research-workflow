@@ -1,4 +1,4 @@
-# 学术研究全流程技能包 (Academic Research Workflow)
+# 科研诊断工作流 (Academic Research Workflow)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](SKILL.md)
 [![Materials](https://img.shields.io/badge/distilled%20materials-33-green)]()
@@ -8,6 +8,20 @@
 > 一个可成长的社科人文研究认知外挂。不是论文生产线 —— 而是一个思考脚手架，在对的时刻问你一系列正确的问题。
 
 English version: [README_EN.md](README_EN.md)
+
+![工作流演示](assets/demo-workflow.gif)
+
+---
+
+## 设计哲学
+
+这个工作流的核心思想来自历史学家王汎森的一句话：
+
+> "要有一棵自己的知识树，才能在那棵树挂相关的东西。那五六本重要的书将逐渐形成你知识树的主干。"
+
+它就是这棵知识树的"外部化版本"。你每读一篇重要论文，distiller 帮你提取这篇论文的"枝干结构"——作者怎么发现问题的？怎么论证的？用了什么方法？为什么要用这个方法？慢慢地，这些结构积累得越来越多，你就会看到整棵树的形状：在这个问题上，A 学派这样做，B 学派那样做，C 在特定条件下走了第三条路。
+
+它不替你思考，但帮你记住、组织和连接你读过的一切——让你在需要思考时站在更高的起点上。
 
 ---
 
@@ -47,7 +61,7 @@ topic-problematization  research-execution  research-contribution
 | `research-execution` | 执行诊断（树枝二） | 完整链条：理论推导 → 文献对话 → 方法辩护 |
 | `research-contribution` | 贡献诊断（树枝三） | 四步贡献诊断：类型 → 建构 → Discussion表述 → 局限真诚性 |
 
-**设计哲学**：知识储备自动增长（compendium 持续积累），诊断标准保持稳定（子技能只有在新材料提供了现有框架未涵盖的新逻辑时才更新）。
+**运行原则**：知识储备自动增长（compendium 持续积累），诊断标准保持稳定（子技能只有在新材料提供了现有框架未涵盖的新逻辑时才更新）。
 
 ---
 
@@ -147,6 +161,8 @@ academic-research-workflow/
 ├── README.md             # 中文文档（本文件）
 ├── README_EN.md          # English documentation
 ├── LICENSE               # MIT 许可证
+├── assets/
+│   └── demo-workflow.gif # 工作流演示
 ├── compendium.md         # 统一知识库（随新蒸馏内容增长）
 ├── memory.md             # 技能记忆与状态
 └── sub-skills/

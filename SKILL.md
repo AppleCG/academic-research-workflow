@@ -5,7 +5,7 @@ version: 1.0.0
 tags: [research, academic-writing, social-sciences, humanities, workflow, distillation]
 ---
 
-# 学术研究全流程 (Academic Research Workflow)
+# 科研诊断工作流 (Academic Research Workflow)
 
 ## 定位
 
@@ -15,7 +15,7 @@ tags: [research, academic-writing, social-sciences, humanities, workflow, distil
 
 | 子技能 | 角色 | 做什么 |
 |--------|------|--------|
-| `research-distiller` | 蒸馏引擎（基石） | 从学术材料中提取研究框架。技能包的所有方法论知识从这里生长 |
+| `research-distiller` | 蒸馏引擎（基石） | 从学术材料中提取研究框架。工作流的所有方法论知识从这里生长 |
 | `topic-problematization` | 选题问题化（诊断） | 基于9份权威材料的四步选题框架，诊断选题驱动类型、检验问题质量、辩护选题价值 |
 | `research-execution` | 执行层诊断 | 理论推导（从问题到假设结构）→ 方法辩护（为什么用这个方法），文献对话贯穿全程 |
 | `research-contribution` | 贡献收敛诊断 | 判断和建构研究贡献：类型定位→六路径建构诊断→Discussion表述→局限真诚性 |
@@ -24,7 +24,7 @@ tags: [research, academic-writing, social-sciences, humanities, workflow, distil
 **设计哲学**：
 - **可成长**：每投喂一份新材料，框架就可能被更新。材料越多，系统越丰富——不是"学得更准"，而是"看到更多变体"
 - **思考脚手架，非思考替代品**：架构告诉你"你现在应该问自己什么问题"，但答案必须由你给出
-- **不可替代的部分**：conceptualize、"什么值得研究"的判断、学科交界处的直觉——这些留在你的脑子里，技能包不碰
+- **不可替代的部分**：conceptualize、"什么值得研究"的判断、学科交界处的直觉——这些留在你的脑子里，工作流不碰
 
 ## 触发方式
 
@@ -61,9 +61,9 @@ tags: [research, academic-writing, social-sciences, humanities, workflow, distil
 
 ## 首次使用建议
 
-如果你刚接触这个技能包，建议按以下顺序使用：
+如果你刚接触这个工作流，建议按以下顺序使用：
 
-1. **如果你有想分析的材料** → 先调用 `research-distiller`（"蒸馏这篇材料"），把材料的结构提取出来。这是技能包的知识输入口。
+1. **如果你有想分析的材料** → 先调用 `research-distiller`（"蒸馏这篇材料"），把材料的结构提取出来。这是工作流的知识输入口。
 2. **如果你卡在选题** → 调用 `topic-problematization`，它会用四步框架诊断你的研究问题。
 3. **如果你确定了选题，不知道怎么做研究设计** → 调用 `research-execution`，它会诊断你的理论推导→方法辩护完整链。
 4. **如果你的研究做完了，不确定贡献是否足够** → 调用 `research-contribution`，它会用四步框架诊断你的贡献类型、建构质量、表述有效性和局限真诚性。

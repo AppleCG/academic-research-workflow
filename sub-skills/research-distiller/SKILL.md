@@ -354,7 +354,7 @@ tags: [research, academic-writing, social-sciences, humanities, framework-extrac
 
 ### 产出方式：统一追加到 compendium.md
 
-所有蒸馏产出直接追加到技能包顶层的 `compendium.md`，不创建单独的分析卡文件或 session 文件夹。这是唯一的知识储存。
+所有蒸馏产出直接追加到工作流顶层的 `compendium.md`，不创建单独的分析卡文件或 session 文件夹。这是唯一的知识储存。
 
 **追加格式**：
 ```markdown
@@ -484,7 +484,7 @@ tags: [research, academic-writing, social-sciences, humanities, framework-extrac
 2. 新材料只是补充变体 → 拒绝更新，compendium 中标注变体即可
 3. 新材料与现有框架矛盾 → 标注为"变体"，不覆盖原框架
 4. 某方向积累 ≥3 份新变体 → 可考虑新增特化路径
-5. **如果现有框架已经囊括或优于新材料的逻辑——果断拒绝更新。框架的融贯性和解释力是唯一判断标准，新旧不是。** 即使用户反复坚持，只要现有框架更优，就必须拒绝。这是技能包的免疫系统，防止低质量更新侵蚀框架资产。
+5. **如果现有框架已经囊括或优于新材料的逻辑——果断拒绝更新。框架的融贯性和解释力是唯一判断标准，新旧不是。** 即使用户反复坚持，只要现有框架更优，就必须拒绝。这是工作流的免疫系统，防止低质量更新侵蚀框架资产。
 
 ---
 

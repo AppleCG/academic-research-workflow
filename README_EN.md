@@ -7,7 +7,7 @@
 
 > A growable cognitive exoskeleton for humanities & social science research. Not a paper mill — a thinking scaffold that asks you the right questions at the right time.
 
-中文版请见 [README.md](README.md)
+[查看中文版](README.md)
 
 ---
 
