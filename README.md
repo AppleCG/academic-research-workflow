@@ -1,4 +1,4 @@
-# Academic Research Workflow (学术研究全流程技能包)
+# Academic Research Workflow
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](SKILL.md)
 [![Materials](https://img.shields.io/badge/distilled%20materials-33-green)]()
@@ -7,7 +7,7 @@
 
 > A growable cognitive exoskeleton for humanities & social science research. Not a paper mill — a thinking scaffold that asks you the right questions at the right time.
 
-一个可成长的社科人文研究认知外挂。它不替你写论文，但在你需要做判断的时候，基于 33 份权威学者材料，问你一系列正确的问题。
+中文版请见 [README_CN.md](README_CN.md)
 
 ---
 
@@ -124,11 +124,11 @@ cp -r academic-research-workflow ~/.agents/skills/
 
 ### First-time usage flow
 
-1. **Have materials to analyze?** → Say "蒸馏这篇材料" or "Extract the research framework from this paper"
-2. **Stuck on your topic?** → Say "帮我看看我的选题" — goes through a 4-step diagnosis
-3. **Topic set, need research design?** → Say "我有了研究问题，接下来怎么设计研究"
-4. **Not sure your contribution is strong enough?** → Say "帮我看看我的论文贡献"
-5. **Don't know where you're stuck?** → Say "我改不下去了，帮我看看到底哪出问题了" — architecture locates your stage first, then hands off to the right sub-skill
+1. **Have materials to analyze?** → Say "Extract the research framework from this paper"
+2. **Stuck on your topic?** → Say "Diagnose my research topic" — goes through a 4-step diagnosis
+3. **Topic set, need research design?** → Say "Help me design the research for my topic"
+4. **Not sure your contribution is strong enough?** → Say "Check my paper's contribution"
+5. **Don't know where you're stuck?** → Say "My paper feels stuck, help me find the problem" — architecture locates your stage first, then hands off to the right sub-skill
 
 ### Key constraints
 
@@ -144,7 +144,8 @@ cp -r academic-research-workflow ~/.agents/skills/
 ```
 academic-research-workflow/
 ├── SKILL.md              # Skill definition & metadata
-├── README.md             # This file
+├── README.md             # English documentation (this file)
+├── README_CN.md          # Chinese documentation
 ├── LICENSE               # MIT License
 ├── compendium.md         # Unified knowledge base (grows with new distillations)
 ├── memory.md             # Skill memory & state
