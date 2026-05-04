@@ -1,154 +1,154 @@
-# Academic Research Workflow
+# 学术研究全流程技能包 (Academic Research Workflow)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](SKILL.md)
 [![Materials](https://img.shields.io/badge/distilled%20materials-33-green)]()
 [![Disciplines](https://img.shields.io/badge/disciplines-10%2B-orange)]()
 [![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-> A growable cognitive exoskeleton for humanities & social science research. Not a paper mill — a thinking scaffold that asks you the right questions at the right time.
+> 一个可成长的社科人文研究认知外挂。不是论文生产线 —— 而是一个思考脚手架，在对的时刻问你一系列正确的问题。
 
-中文版请见 [README_CN.md](README_CN.md)
-
----
-
-## What It Is (and Isn't)
-
-| It IS | It is NOT |
-|-------|-----------|
-| A systematic diagnostic toolkit for your research | A paper generator — give it a topic, it won't spit out a paper |
-| A growing knowledge base distilled from 33 authoritative sources | A one-size-fits-all template |
-| A question-asking engine — you provide the answers | A replacement for your own thinking and disciplinary intuition |
-
-Think of it as a senior mentor's external brain: it remembers the methodological essence of every important paper you've read; it gives you systematic checklists when you need to examine your own research; it helps you locate where you're stuck when you can't articulate the problem yourself.
+English version: [README_EN.md](README_EN.md)
 
 ---
 
-## Architecture: 3 Layers, 4 Steps
+## 它是什么（和不是什么）
+
+| 它是 | 它不是 |
+|------|--------|
+| 一个系统的研究诊断工具箱 | 论文生成器 —— 给题目不会吐论文 |
+| 一个从 33 份权威材料中蒸馏出的可成长知识库 | 一套放之四海皆准的模板 |
+| 一个提问引擎 —— 答案由你来给出 | 你自身思考力和学科直觉的替代品 |
+
+把它想象成一个资深导师的外置大脑：你读过的每一篇重要论文的方法论精华，它帮你记住；你需要检查自己研究有没有漏洞的时候，它给你系统的检查清单；你卡住说不清问题在哪的时候，它帮你定位。
+
+---
+
+## 架构：三层四步
 
 ```
-          research-architecture (trunk — horizontal positioning)
-          "Where am I stuck? Which stage?"
+          research-architecture（树干 — 横向定位）
+          "我卡在哪了？处于哪个阶段？"
                          │
     ┌────────────────────┼────────────────────┐
     │                    │                    │
 topic-problematization  research-execution  research-contribution
-  (branch 1: anchoring) (branch 2: execution) (branch 3: convergence)
-    "Is my topic good?" "Is my design sound?"  "Is my contribution real?"
+  （树枝一：锚定/选题）   （树枝二：执行/设计）  （树枝三：收敛/贡献）
+    "我的选题好吗？"     "我的设计合理吗？"    "我的贡献是真的吗？"
                          │
-          research-distiller (root — knowledge intake)
-          "Extract the research framework from this paper"
+          research-distiller（树根 — 知识入口）
+          "从这份论文中提取研究框架"
 ```
 
-| Sub-skill | Role | What it diagnoses |
-|-----------|------|-------------------|
-| `research-distiller` | Knowledge intake (root) | Extracts research frameworks from academic materials and feeds the shared knowledge base |
-| `research-architecture` | Stage positioning (trunk) | Locates which of the 3 research stages you're stuck in |
-| `topic-problematization` | Anchoring (branch 1) | 4-step topic diagnosis: origin → quality → defensibility → operationalization |
-| `research-execution` | Execution (branch 2) | Full chain: theory derivation → literature dialogue → method justification |
-| `research-contribution` | Convergence (branch 3) | 4-step contribution diagnosis: type → construction → Discussion writing → limitations |
+| 子技能 | 角色 | 诊断什么 |
+|--------|------|----------|
+| `research-distiller` | 知识入口（树根） | 从学术材料中提取研究框架，汇入共享知识库 |
+| `research-architecture` | 阶段定位（树干） | 定位你卡在研究的哪个阶段 |
+| `topic-problematization` | 锚定诊断（树枝一） | 四步选题诊断：来源 → 质量 → 可辩护性 → 可操作化 |
+| `research-execution` | 执行诊断（树枝二） | 完整链条：理论推导 → 文献对话 → 方法辩护 |
+| `research-contribution` | 贡献诊断（树枝三） | 四步贡献诊断：类型 → 建构 → Discussion表述 → 局限真诚性 |
 
-**Design philosophy**: Knowledge grows (compendium accumulates), diagnostic standards stay stable (sub-skills only update when new materials genuinely expand the framework).
-
----
-
-## Evidence Base: 33 Materials, 10+ Disciplines
-
-Every diagnostic question and checklist item traces back to a specific scholar and publication. No generic advice.
-
-### Foundation (5 sources)
-
-| Source | Key insight |
-|--------|-------------|
-| **Li Huaizu** (XJTU) — Management methodology | "Hypothesis tree" concept; distinction between research logic and writing logic |
-| **Lu Ming** (Fudan) — Public lecture | "The distance from topic to question"; writing IS research |
-| **UW Writing Center** (2021) — "20 Tips" | Argument-driven structure; "jigsaw test" for structural coherence |
-| **"Degree & Writing"** — 3-layer framework | "Closed-loop writing" — writing that can't close the loop signals research flaws |
-| **Wang Fansen** (Academia Sinica) — Lecture | "Knowledge tree" metaphor; "A good topic is 70% of success" |
-
-### Anchoring / Topic stage (9 sources)
-
-| Source | Key insight |
-|--------|-------------|
-| **Zhao Dingxin** (UChicago/ZJU) — Sociology | "Difference-oriented questioning" — ask not "what is X?" but "why X and not Y?" |
-| **Li Mianguan** (SYSU) — Public administration | Distinguishes "puzzles" (worth studying) from "difficulties" (operational obstacles) |
-| **Alvesson & Sandberg** (2024, SAGE) | "Gap-spotting" vs. "problematization" — the latter challenges assumptions |
-| **Zhong Kaikai** (PKU) — Doctoral thesis review (2014) | Complete 3-round topic iteration documented in first person |
-| **Jin Dalu** (SASS) — Historical research (2024) | "Coordinated source clusters" and "topic coordinate method" (era × domain) |
-| **Han Liang** — Top-100 doctoral thesis analysis | MIT's 7 thesis types; title-keyword-heading coherence test |
-| **Yu Sumei** (NIES) — Sports science methodology | 6 topic pathologies; dual-step topic narrowing method |
-| **Gerring & Seawright** (2022, CUP) — Political science | "Research sandbox" — topic selection as exploratory play, not one-shot decision |
-| **NENU Journal Press** (2026) — Editorial studies | Institutional dimension of topic selection under impact-factor pressure |
-
-### Execution / Design stage (8 sources)
-
-| Source | Key insight |
-|--------|-------------|
-| **Sparrowe & Mayer** (2011, AMJ) | Hypothesis grounding: positioning → logic → coherence; draft without citations first |
-| **Zhang Lianxiang** (Peking UP) | Operationalization triad: denominator → unit → boundary |
-| **Causal inference primer** | Potential outcomes framework (Rubin Causal Model) |
-| **Tang Lingfeng** (ScienceNet) | 8-question literature dialogue model |
-| **Li Xu & Chen Lihong** (BJTU, 2023) | Literature reading layers: search → skim → deep read; 92%+ of grad students spend >50% time reading |
-| **Teresa Chan** (McMaster) — Health education | "Throughline" concept — RQ → epistemology → methodology → method → results must align |
-| **Xu Zhili & Xu Ge** (Beihang, 2021) | Mixed methods: 3 justification logics (pragmatist / dialectical / complexity) |
-| **Univ. of Melbourne** Academic Skills | Method selection 5-point self-check |
-
-### Convergence / Contribution stage (8 sources)
-
-| Source | Key insight |
-|--------|-------------|
-| **Gruber et al.** (2021, AMJ) | Dual contribution standard: theoretical advancement + real-world impact |
-| **Ravasi et al.** (2025, AMJ) | 6-path contribution construction framework with failure modes |
-| **Geletkanycz & Tepper** (2012, AMJ) | Discussion as "ending + new beginning"; 3 traps (rehash / wander / overreach) |
-| **AOM Editors** (2021, AMD) | 6 journals × 6 contribution types matrix |
-| **Ross & Bibler Zaidi** (2019) — Medical education | 4-element limitations framework; counterintuitive: good limitations writing increases acceptance |
-| **AJE** (2023) | 5-category limitations taxonomy; independently consistent with Ross & Zaidi |
-| **USC Library** — Discussion guide | Inverted pyramid structure; 7-segment organization |
-| **USC Library** — Conclusion guide | Hourglass structure; "new insights, not new information" |
-
-### Empirical validation (3 sources)
-
-3 papers from *Management World* and *Nankai Business Review* (China's top management journals) validate the 3-layer architecture across qualitative single-case, qualitative dual-case, and quantitative experimental designs.
+**设计哲学**：知识储备自动增长（compendium 持续积累），诊断标准保持稳定（子技能只有在新材料提供了现有框架未涵盖的新逻辑时才更新）。
 
 ---
 
-## Quick Start
+## 证据基础：33 份材料，10+ 个学科
 
-### Prerequisites
+每一条诊断标准、每一个检查问题，都标注了来自哪位学者、哪篇文章。不输出任何没有材料支撑的通用建议。
 
-This is a [Claude Code](https://claude.ai/code) skill. Install it by copying to your skills directory:
+### 架构基础（5 份）
+
+| 材料 | 核心贡献 |
+|------|----------|
+| **李怀祖**（西安交通大学）管理学方法论专著 | "假设树"概念；区分研究逻辑与写作逻辑 |
+| **陆铭**（复旦大学）公开演讲 | "从 topic 到 question 的距离"；写作就是研究 |
+| **华盛顿大学写作中心**"20条建议"（2021） | 论点驱动一切；"拼图检验"判断结构好坏 |
+| **"学位与写作"** 三层结构方法论 | "闭环写作"——写作无法闭环说明研究本身有缺陷 |
+| **王汎森**（中研院院士）公开演讲 | "知识树"隐喻；选题对了 70% 就成功了 |
+
+### 第一层：选题/锚定阶段（9 份）
+
+| 材料 | 核心贡献 |
+|------|----------|
+| **赵鼎新**（芝加哥大学/浙江大学）社会学方法论 | "差异性发问"——好问题不是问"X是怎样的"而是"为什么是X而不是Y" |
+| **李棉管**（中山大学）讲座整理 | 区分"困惑"（值得研究）与"困难"（操作障碍） |
+| **Alvesson & Sandberg**（2024, SAGE） | 区分"填空式研究"与"问题化研究"——后者挑战已有理论的潜在假设 |
+| **钟凯凯**（北京大学教育学院）博士论文复盘（2014） | 完整记录从框定领域到答辩定题的选题全过程，含三轮题目迭代 |
+| **金大陆**（上海社会科学院）《当代中国史研究》2024 | "合围性史料群"概念；"选题坐标法"（年代×领域交叉定位） |
+| **韩亮**《江西师范大学学报》百篇优博分析 | MIT 七种论文类型分类；标题-关键词-章节标题四者贯通检验法 |
+| **于素梅**（中国教育科学研究院）选题方法论 | 六种选题病象；"由大到小→由多到少"双步定题法 |
+| **Gerring & Seawright**（2022, 剑桥大学出版社） | "研究沙盒"概念——选题是探索性玩耍的过程而非一次性决定 |
+| **东北师范大学学术期刊社**（2026） | 揭示影响因子导向对学术期刊选题的扭曲效应 |
+
+### 第二层：执行/设计阶段（8 份）
+
+| 材料 | 核心贡献 |
+|------|----------|
+| **Sparrowe & Mayer**（2011, AMJ） | 假设的理论建设三要素（定位/逻辑/连贯）；先写无引文草稿再回补文献 |
+| **张连祥**《论文写作实用教程》 | 概念操作化三要素——分母（比较基线）、单位（量纲）、边界（不纳入的口径） |
+| **因果推断入门**方法论综述 | 潜在结果框架（Rubin因果模型） |
+| **唐凌峰**文献阅读方法论 | 八问文献对话模型——理解→关联→超越，构成微型文献对话框架 |
+| **李旭、陈立宏**（北京交通大学）2023 | 文献阅读操作分层：检索→泛读→精读；>92% 研究生文献阅读超总科研时间 50% |
+| **Teresa Chan**（麦克马斯特大学）健康职业教育 | "Throughline"（贯通线）——研究问题→认识论→方法论→方法→结果必须逻辑贯通 |
+| **徐治立、徐舸**（北京航空航天大学）2021 | 混合方法研究的三种辩护逻辑（实用主义/辩证主义/复杂性范式） |
+| **墨尔本大学**学术技能中心 | 方法选择五自检——研究者立场/方法-目标对齐/替代比较/混淆因素/自身假设 |
+
+### 第三层：贡献/收敛阶段（8 份）
+
+| 材料 | 核心贡献 |
+|------|----------|
+| **Gruber等**（2021, AMJ） | 贡献的双重标准——理论推进+现实影响力 |
+| **Ravasi等**（2025, AMJ） | 六路径贡献建构框架——每条路径对应一个常见失败模式和纠正方法 |
+| **Geletkanycz & Tepper**（2012, AMJ） | Discussion 的"结束+新开始"双重结构；三大陷阱（复述结果/东拉西扯/过度推演） |
+| **多位AOM期刊编辑**（2021, AMD） | 六种期刊六种贡献类型矩阵 |
+| **Ross & Bibler Zaidi**（2019）医学教育 | 局限写作的四要素框架；反常识：良好的局限写作提升录用概率 |
+| **AJE**（2023） | 五类局限分类和写作三步骤——与 Ross & Zaidi 的四要素框架独立提出且高度一致 |
+| **南加州大学图书馆** Discussion 指南 | 倒金字塔结构和七段式组织法 |
+| **南加州大学图书馆** Conclusion 指南 | 沙漏结构和八个增强策略；"新洞察，非新信息"原则 |
+
+### 附录：实证验证（3 份）
+
+来自《管理世界》和《南开管理评论》的 3 篇论文，验证三层架构在定性单案例、定性双案例和定量实验研究中的可观察性。
+
+---
+
+## 快速开始
+
+### 环境要求
+
+这是 [Claude Code](https://claude.ai/code) 技能。将整个目录复制到 skills 目录即可使用：
 
 ```bash
-# Clone or copy to your Claude Code skills directory
+# 克隆或复制到你的 Claude Code skills 目录
 cp -r academic-research-workflow ~/.agents/skills/
 ```
 
-### First-time usage flow
+### 首次使用流程
 
-1. **Have materials to analyze?** → Say "Extract the research framework from this paper"
-2. **Stuck on your topic?** → Say "Diagnose my research topic" — goes through a 4-step diagnosis
-3. **Topic set, need research design?** → Say "Help me design the research for my topic"
-4. **Not sure your contribution is strong enough?** → Say "Check my paper's contribution"
-5. **Don't know where you're stuck?** → Say "My paper feels stuck, help me find the problem" — architecture locates your stage first, then hands off to the right sub-skill
+1. **手头有想分析的材料？** → 说"蒸馏这篇材料"或"帮我分析这篇论文的结构"
+2. **卡在选题？** → 说"帮我看看我的选题"，会启动四步诊断
+3. **确定了选题，不知道怎么设计研究？** → 说"我有了研究问题，接下来怎么设计研究"
+4. **论文快写完了，不确定贡献够不够？** → 说"帮我看看我的论文贡献"
+5. **不知道自己卡在哪？** → 说"我改不下去了，帮我看看到底哪出问题了"——先定位阶段，再深入诊断
 
-### Key constraints
+### 关键约束
 
-- All diagnostic guidance must be traceable to a distilled source
-- No unsourced universal assertions
-- Declare distillation intent before any analysis (Step 0)
-- Specific problem, specific analysis — no fixed templates
+- 所有诊断指导必须可追溯至蒸馏材料
+- 不做无来源的普遍性断言
+- 蒸馏前必须声明意图（Step 0）
+- 具体问题具体分析，不套用固定模板
 
 ---
 
-## File Structure
+## 文件结构
 
 ```
 academic-research-workflow/
-├── SKILL.md              # Skill definition & metadata
-├── README.md             # English documentation (this file)
-├── README_CN.md          # Chinese documentation
-├── LICENSE               # MIT License
-├── compendium.md         # Unified knowledge base (grows with new distillations)
-├── memory.md             # Skill memory & state
+├── SKILL.md              # 技能定义与元数据
+├── README.md             # 中文文档（本文件）
+├── README_EN.md          # English documentation
+├── LICENSE               # MIT 许可证
+├── compendium.md         # 统一知识库（随新蒸馏内容增长）
+├── memory.md             # 技能记忆与状态
 └── sub-skills/
     ├── research-distiller/
     │   └── SKILL.md
@@ -164,31 +164,31 @@ academic-research-workflow/
 
 ---
 
-## Growth Model
+## 成长模型
 
-- **Knowledge base (compendium.md)** grows automatically with each new distillation — organized under 5 stable chapters: Foundation → Anchoring → Execution → Convergence → Appendix
-- **Diagnostic sub-skills** update only when new materials provide genuinely novel logic not covered by the existing framework. At least 3 materials in a direction are needed before considering an update. Coherence and explanatory power are the only criteria — novelty alone is not enough.
-
----
-
-## Limitations (Transparency)
-
-- **Literature dialogue materials are the thinnest** (2 sources) — this is the weakest link in the evidence base
-- **Qualitative methodology guidance is thinner than quantitative** — mixed methods and qualitative sources come from review articles rather than primary methodological research
-- **Not a substitute for a mentor** — it doesn't know your field's frontier dynamics or your academic community's norms
-- **Not a substitute for thinking** — the ability to find conceptual connections, judge what's worth studying, and discover innovation at disciplinary intersections remains in your brain
+- **知识储备（compendium.md）** 随每次新蒸馏自动增长——按 5 个稳定章节组织：架构基础 → 选题 → 执行 → 贡献 → 附录，永不新增章节或重组结构
+- **诊断子技能** 只有在新材料提供了现有框架未涵盖的新逻辑时才更新。某个方向需至少积累 3 份以上新材料。框架的融贯性和解释力是唯一的判断标准——新旧不是
 
 ---
 
-## Version
+## 透明性与局限性
 
-- **Version**: 1.0.0
-- **Distilled materials**: 33
-- **Disciplines covered**: 10+
-- **Sub-skills**: 5 (1 distiller + 1 architecture map + 3 stage diagnostics)
+- **文献对话的材料目前最薄弱**（仅 2 份）——这是整个工具箱在材料厚度上最薄弱的环节，尚未独立成专项工具
+- **定性研究路径的材料比定量路径薄**——混合方法和定性来源来自综述性文章而非一手实证方法论研究
+- **不能替代导师**——它不知道你特定领域的前沿动态、材料细节、学术共同体的偏好和规范
+- **不能替代你自己的思考**——发现概念联系的能力、对"什么值得研究"的判断力、在学科交界处发现创新的直觉——这些部分永远在你脑子里
 
 ---
 
-## License
+## 版本信息
+
+- **版本**：1.0.0
+- **蒸馏材料总数**：33 份
+- **学科覆盖**：10+
+- **子工具数量**：5 个（1 个蒸馏引擎 + 1 个架构地图 + 3 个阶段诊断工具）
+
+---
+
+## 许可证
 
 MIT
