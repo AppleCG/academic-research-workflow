@@ -1,3 +1,5 @@
+
+
 # 科研诊断工作流 (Academic Research Workflow)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](SKILL.md)
@@ -136,7 +138,7 @@ cp -r academic-research-workflow ~/.agents/skills/
 
 ### 首次使用流程
 
-1. **手头有想分析的材料？** → 说"蒸馏这篇材料"或"帮我分析这篇论文的结构"
+1. **手头有想分析的材料？** → 说"蒸馏这篇材料"或"帮我分析这篇论文的结构"（也可输入 `/research-distiller` 进入交互式蒸馏模式）
 2. **卡在选题？** → 说"帮我看看我的选题"，会启动四步诊断
 3. **确定了选题，不知道怎么设计研究？** → 说"我有了研究问题，接下来怎么设计研究"
 4. **论文快写完了，不确定贡献够不够？** → 说"帮我看看我的论文贡献"
